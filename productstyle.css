@@ -1,0 +1,155 @@
+body{
+	text-align: center;
+	background-color: #E1E1E1;
+}
+
+#header{
+	position: fixed;
+}
+
+@media (max-width: 480px){
+	img{
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.logo img{
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin-left: 100px;
+}
+
+nav{
+	float: right;
+	width: 100%;
+	position: fixed;
+	padding-top: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;	
+}
+
+nav li{
+	display: inline;
+	font-size: 20px;
+	padding-right: 100px;
+	float: right;
+}
+
+#landing{
+	padding-top: 180px;
+}
+
+#landing h2{
+	font-family: Helvetica, "Lucida Grande";
+	font-size: 28px;
+}
+
+#email{
+	border: 1 solid;
+	border-radius: 10px;
+	width: 500px;
+	height: 30px;
+}
+
+#submit{
+	background-color: blue;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+}
+
+#submit:hover{
+	background-color: green;
+}
+
+#services{
+	display: flex;
+}
+
+#services h4{
+	font-family: Garamond, Palatino;
+	font-size: 18px;
+}
+
+#service1{
+	align-self: flex-start;
+	width: 250px;
+	height: 200px;
+	padding: 20px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+#service2{
+	align-self: center;
+	width: 250px;
+	height: 200px;
+	padding: 20px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+#service3{
+	align-self: flex-end;
+	width: 250px;
+	height: 200px;
+	padding: 20px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+
+#training{
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+#training h2{
+	font-family: Copperplate, "Book Antiqua";
+	font-size: 25px;
+}
+
+#membership{
+	display: flex;
+}
+
+.member{
+	width: 270px;
+	height: 270px;
+	padding: 20px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+.member ul{
+	padding-left: 15px;
+}
+
+#select{
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+
+#select:hover{
+	background-color: yellow;
+	color: black;
+}
